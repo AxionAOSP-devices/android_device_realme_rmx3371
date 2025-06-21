@@ -422,4 +422,4 @@ PRODUCT_PACKAGES += \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
 # Inherit from the proprietary files makefile.
-$(call inherit-product, vendor/realme/RMX3371/RMX3371-vendor.mk)
+$(call inherit-product, vendor/realme/rmx3371/rmx3371-vendor.mk)

@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/realme/RMX3371
+DEVICE_PATH := device/realme/rmx3371
 
 # A/B
 AB_OTA_UPDATER := true
@@ -38,7 +38,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := kryo385
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := RMX3371,RE54E4L1
+TARGET_OTA_ASSERT_DEVICE := rmx3371,RE54E4L1
 
 # Audio
 AUDIO_FEATURE_ENABLED_DLKM := true
@@ -190,4 +190,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Include the proprietary files BoardConfig.
-include vendor/realme/RMX3371/BoardConfigVendor.mk
+include vendor/realme/rmx3371/BoardConfigVendor.mk
